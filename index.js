@@ -5,5 +5,12 @@ module.exports = {
   rules: {
     "import/order": "warn",
     curly: "error",
+    "@typescript-eslint/array-type": "warn",
+    eqeqeq: ["warn", "allow-null"],
+    "no-console": ["warn", { allow: ["warn", "error"] }],
+    "prefer-arrow-callback": "warn",
+    "prefer-template": "warn",
+    "prefer-const": "warn",
+    "explicit-function-return-type": ["warn", { allowExpressions: true }],
   },
 };
