@@ -2,7 +2,7 @@
 
 A shareable eslint config designed to be used for frontend apps at morphosis.
 
-# What it includes inside
+# What it includes
 
 The config extends eslint-config-next, so the project using this config does not have to again extend next-related eslint configs (they include react, react-hooks, jsx/a11y).
 
