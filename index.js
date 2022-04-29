@@ -11,6 +11,5 @@ module.exports = {
     "prefer-arrow-callback": "warn",
     "prefer-template": "warn",
     "prefer-const": "warn",
-    "explicit-function-return-type": ["warn", { allowExpressions: true }],
   },
 };
